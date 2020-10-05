@@ -1,2 +1,6 @@
-# Coursera_Capstone
-Coursera_Capstone
+I did my data science course capstone on the severity of car accidents in Seattle. More specifically, I did my research on what types of traffic collisions are most likely to result in injury. This blog post will walk through my process.
+First, I imported the libraries from the Course 8 final project. I figured that those libraries would have everything I needed for this project. The two libraries that I ended up using were pandas and NumPy.
+Next, I read the provided .csv and then listed the datatypes.
+Then, I began choosing columns to use from the dataframe that I created. The columns that I chose were SEVERITYCODE, which assigns a crash a value of 1, which means no injury, and 2, indicating injury, COLLISIONTYPE, which describes the type of crash, WEATHER, which describes the weather at the time of crash, ROADCOND, which describes the condition of the road at the time of crash, LIGHTCOND, which describes the light conditions at the time of crash, INATTENTIONIND, which describes whether the driver was distracted, and UNDERINFL, which describes whether the driver was under the influence.
+Lastly, I visualized the data in the form of bar graphs. I filtered out the columns I wanted from the provided .csv and then called value_counts to graph the mostly categorical data.
+Most crashes happened in clear, dry, and bright conditions. Most days are clear, dry, and bright, so it’s no surprise that most car crashes occur under these conditions. I also found out that crashes with a distracted driver or an impaired driver are statistically more likely to result in injury, which is also not a surprise. The results of the data indicate to city officials that they should ask drivers to be more alert in ideal conditions.
